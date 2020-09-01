@@ -1,10 +1,16 @@
 ﻿using System;
 namespace IBuildaAZoo
 {
-    public class Farm
+    public abstract class Farm
     {
-        public Farm()
+        // Properties
+        public abstract string Wild { get;protected set: }
+        public string Tame { get; protected set; }
+        // public virtual bool Skin { get { return true; }
+
+      
         {
-        }
+        
     }
+}
 }

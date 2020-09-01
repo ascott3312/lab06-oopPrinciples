@@ -1,9 +1,13 @@
 ﻿using System;
 namespace IBuildaAZoo
 {
-    public class Jungle
+    public abstract class Jungle
     {
-        public Jungle()
+        // Properties
+        public abstract string Wild { get; protected set: }
+        public string Tame { get; protected set; }
+        // public virtual bool Skin { get { return true; }
+
         {
         }
     }
